@@ -44,7 +44,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.7.0
         with:
-          images: mary-ppv/sprint12
+          images: maryppv/sprint12
 
       - name: Build and push Docker Image
         uses: docker/build-push-action@v6.18.0
