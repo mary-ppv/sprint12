@@ -3,10 +3,10 @@ name: Go
 on:
   push:
     tags:
-    - v1.0.3
+    - v1.0.4
   pull_request:
     tags:
-    - v1.0.3
+    - v1.0.4
 
 jobs:
   test:
